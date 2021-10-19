@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content_title %}
+{% endblock %}
+{% block content %}
+<div class="page type-page status-publish hentry" id="post">
+	<div class="main">
+		<div class="row">
+			<div class="col-sm-12 hentry">
+				<h1 class="entry-title">Incendium En Excelsis Memes</h1>
+				<div>
+					How would our world be translated for Confucius, Aristotle, or Ovid? One of my pastimes is translating hip hop lyrics and illustrating them. 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	{% for article in articles_page.object_list %}
+		{% include 'post.html' %}
+	{% endfor %}
+	{% include 'pagination.html' %}
+{% endblock content %}
