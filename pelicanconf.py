@@ -21,8 +21,8 @@ ARTICLE_PATHS = ['memes']
 
 
 MENUITEMS = [
-  #('Home', 'index.html'),
   ('Memes', 'incendium.html'),
+  ('CV', 'images/albacurryCV.pdf'),
 ('Projects', 'projects.html'),
   ('About', 'index.html'),
   #('Podcast', 'podcast.html'),
@@ -31,7 +31,7 @@ MENUITEMS = [
   
 ]
 
-DIRECT_TEMPLATES = ['index', 'incendium']
+DIRECT_TEMPLATES = ['index', 'incendium', 'projects',]
 PAGINATED_DIRECT_TEMPLATES = ['incendium']
 
 

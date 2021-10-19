@@ -37,7 +37,7 @@ body {
 #contents {
 	border-left: 1px solid #ccc;
 	height: auto;
-	margin-left: 199px;
+	margin-left: 100px;
 	padding-bottom: 10px;
 }
 
@@ -199,6 +199,14 @@ body {
 	text-transform: uppercase;
 	width: 190px;
 }
+.hentry a {
+	color: #777;
+}
+.hentry a:hover {
+	color: #f8304e;
+	text-decoration: none;
+}
+
 .hentry .entry-meta a {
 	text-decoration: none;
 }
@@ -288,6 +296,8 @@ a:hover {
 .entry-content a:hover img {
 	border: 10px solid #000;
 }
+
+
 b, strong {
 	color: #000;
 }
